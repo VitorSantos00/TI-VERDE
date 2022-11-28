@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3d3;
+}
+
+p {
+    text-align: justify;
+    margin: 10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ref {
+    font-weight: bold;
+    margin-left: 10vh;
+}
+
+
+button {
+    margin: 10vh;
+    background-color: #ffff;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    p {
+        text-align: justify;
+        margin: 3vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    button {
+        margin: 3vh;
+        background-color: #ffff;
+        border-radius: 50px;
+    }
+}
